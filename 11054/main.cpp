@@ -3,9 +3,9 @@
 using namespace std;
 
 int main() {
-    int arr[1001] = {0,};
-    int dpIncrase[1001] = {0,};
-    int dpDecrease[1001] = {0,};
+    int arr[1010] = {0,};
+    int dpIncrase[1010] = {0,};
+    int dpDecrease[1010] = {0,};
 
     int num;
     cin >> num;
@@ -21,9 +21,9 @@ int main() {
                 if(min_ < dpIncrase[j]){ //일단 I번째 숫자보다 비교하는 j번째의 숫자가 더 작아야 한다. + 기록해놓은 min보다 현재 비교하는 j번째의 dp가 더 커야한다.
                     min_ = dpIncrase[j]; //min을 업데이트 해준다. 최소의 기준을 높인다.
                 }
-                dpIncrase[i] = min_ + 1; //비교군보다 한단계 위 이므로 +1한 뒤 저장한다.
             }
         }
+        dpIncrase[i] = min_ + 1; //비교군보다 한단계 위 이므로 +1한 뒤 저장한다.
     }
 
     for(int i=num ; i>0 ; i--){
@@ -33,16 +33,17 @@ int main() {
                 if(min_ < dpDecrease[j]){
                     min_ = dpDecrease[j];
                 }
-                dpDecrease[i] = min_ + 1;
             }
         }
+    if(dpDecrease[i] < min_+1){
+        dpDecrease[i] = min_+1;
+    }
     }
 
     int max = 0;
     for(int i=1 ; i<=num ; i++){
         if(max < dpIncrase[i]+dpDecrease[i]){
             max = dpIncrase[i]+dpDecrease[i];
-            //cout << max << " " << dpIncrase[i] <<" "<<dpDecrease[i] << endl;
         }
     }
 
