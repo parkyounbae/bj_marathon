@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bag-yunbae/Documents/GitHub/bj_marathon/1992/main.cpp
+iostream
+-
+string.h
+-
+cmath
+-
+

@@ -80,15 +80,15 @@ include CMakeFiles/1021.dir/flags.make
 CMakeFiles/1021.dir/main.cpp.o: CMakeFiles/1021.dir/flags.make
 CMakeFiles/1021.dir/main.cpp.o: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1021.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1021.dir/main.cpp.o -c /Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/main.cpp
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1021.dir/main.cpp.o -c /Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/main.cpp
 
 CMakeFiles/1021.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1021.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/main.cpp > CMakeFiles/1021.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/main.cpp > CMakeFiles/1021.dir/main.cpp.i
 
 CMakeFiles/1021.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1021.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/main.cpp -o CMakeFiles/1021.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bag-yunbae/Documents/GitHub/bj_marathon/1021/main.cpp -o CMakeFiles/1021.dir/main.cpp.s
 
 # Object files for target 1021
 1021_OBJECTS = \
